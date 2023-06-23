@@ -15,6 +15,79 @@ code {
 }
 
 .Conteiner {
-  width: 1540px;
+  max-width: 1540px;
   padding: 0 190px;
 }
+
+/* Сброс стилей */
+
+/* Сброс отступов и полей */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Сброс стандартных стилей для списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Сброс стандартных стилей для гиперссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Сброс стандартных стилей для изображений */
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Сброс стандартных стилей для таблиц */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Сброс стандартных стилей для форм */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  outline: none;
+  appearance: none;
+}
+
+/* Сброс стандартных стилей для кнопок */
+button {
+  cursor: pointer;
+}
+
+/* Дополнительные сбросы стилей могут быть добавлены сюда */
+
+/* Конец сброса стилей */

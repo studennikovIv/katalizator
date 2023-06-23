@@ -1,23 +1,26 @@
-// import logo from './logo.svg';
+import logo from './assets/img/logo.png';
 import './App.css';
 
 function App() {
   return (
     <>
-      <div className="Conteiner">
-        <div className="Hero">
-          <header>
-            <img />
-            <ul>
+      <div className="Hero">
+        <div className="Conteiner">
+          <header className="Header">
+            <img src={logo} />
+            <ul className="NavList">
               <li>Меню</li>
+              <li>/</li>
               <li>Причини</li>
+              <li>/</li>
               <li>Про Нас</li>
+              <li>/</li>
               <li>Відгуки</li>
             </ul>
-            <div>
-              <p>+38 099 765 4321</p>
-              <p>UA</p>
-            </div>
+            <ul className="HeaderPhone">
+              <li>+38 099 765 4321</li>
+              <li>UA</li>
+            </ul>
           </header>
           <div className="TopTextConteiner">
             <h1>Перетворіть старий каталізатор у реальний кеш!</h1>

@@ -59,6 +59,11 @@
 }
 .HeaderPhone li + li {
   margin-left: 81px;
+  display: flex;
+  align-items: center;
+}
+.UaIcon {
+  margin-left: 10px;
 }
 /* Hero */
 
@@ -73,4 +78,93 @@
   margin-top: 108px;
   text-align: center;
   color: #fff;
+}
+
+.TopTextConteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TopTextConteiner h1 {
+  width: 840px;
+  font-size: 55px;
+  font-weight: 600;
+}
+.TopTextConteiner p {
+  width: 1075px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.ButtonConteiner {
+  margin-top: 60px;
+  width: 80%;
+}
+.ButtonConteiner button + button {
+  margin-left: 295px;
+  width: 240px;
+  height: 63px;
+  padding: 15px 30px 15px 30px;
+  border: 2px solid;
+  border-color: #ed693f;
+  gap: 10px;
+  background-color: transparent;
+}
+.ButtonConteiner button {
+  padding: 15px 30px 15px 30px;
+  height: 63px;
+  background-color: #ed693f;
+}
+
+.BottomTextConteiner {
+  width: 100%;
+  margin-top: 295px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.BottomTextConteiner h3 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.BottomTextConteiner p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.74px;
+  margin-top: 10px;
+}
+.BoxOne {
+  width: 395px;
+}
+.BoxTwo {
+  width: 375px;
+}
+.BoxThree {
+  width: 335px;
+}
+
+/* Этапы продажу */
+
+.StagesSale {
+  padding-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+.StagesSale h2 {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0em;
+}
+.ConteinerStagesSale {
+  display: flex;
+}
+.box {
+  width: 650px;
+  height: 266px;
+}
+.CenterConteiner {
+  width: 80px;
+  height: 750px;
 }

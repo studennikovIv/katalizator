@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/katalizator/static/css/main.9fd49fbd.css",
-    "main.js": "/katalizator/static/js/main.53e6928c.js",
+    "main.css": "/katalizator/static/css/main.12a0f6ae.css",
+    "main.js": "/katalizator/static/js/main.c1fa3ded.js",
     "static/media/HeroBg.jpg": "/katalizator/static/media/HeroBg.b7df00fed181f1624318.jpg",
     "static/media/FotoAboutUs.jpg": "/katalizator/static/media/FotoAboutUs.64226e620d00d8907700.jpg",
+    "static/media/Honda.png": "/katalizator/static/media/Honda.2a7173970b26fbde6929.png",
+    "static/media/Porshe.png": "/katalizator/static/media/Porshe.2d6d5ed1f56617a4884c.png",
+    "static/media/Mercedes.png": "/katalizator/static/media/Mercedes.36bc8b8d1cd69c1e1bda.png",
     "static/media/Viber.svg": "/katalizator/static/media/Viber.64ec1618a2174d777a6ffd13e52e3f2b.svg",
     "static/media/Instagram.svg": "/katalizator/static/media/Instagram.012c597a1de3685e78c7b190a9f2da09.svg",
     "index.html": "/katalizator/index.html",
@@ -11,11 +14,11 @@
     "static/media/VectorRight.svg": "/katalizator/static/media/VectorRight.16ca438209ed33a325651cf4ddc17621.svg",
     "static/media/VectorRightWhite.svg": "/katalizator/static/media/VectorRightWhite.79a40829f967c6c795682be8051b5cfb.svg",
     "static/media/LinkToBottom.svg": "/katalizator/static/media/LinkToBottom.b6f568f7a7d8d58ab0eaf950ad9fee07.svg",
-    "main.9fd49fbd.css.map": "/katalizator/static/css/main.9fd49fbd.css.map",
-    "main.53e6928c.js.map": "/katalizator/static/js/main.53e6928c.js.map"
+    "main.12a0f6ae.css.map": "/katalizator/static/css/main.12a0f6ae.css.map",
+    "main.c1fa3ded.js.map": "/katalizator/static/js/main.c1fa3ded.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fd49fbd.css",
-    "static/js/main.53e6928c.js"
+    "static/css/main.12a0f6ae.css",
+    "static/js/main.c1fa3ded.js"
   ]
 }

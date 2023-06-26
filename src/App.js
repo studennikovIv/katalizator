@@ -8,6 +8,10 @@ import HonestAssessment from './assets/img/HonestAssessment.png';
 import Reliability from './assets/img/Reliability.png';
 import SimpleProcedure from './assets/img/SimpleProcedure.png';
 import ImgFotoAboutUs from './assets/img/FotoAboutUs.jpg';
+import VectorRightWhite from './assets/icons/VectorRightWhite.svg';
+import Instagram from './assets/icons/Instagram.svg';
+import Telegram from './assets/icons/Telegram.svg';
+import Viber from './assets/icons/Viber.svg';
 
 function App() {
   return (
@@ -229,29 +233,44 @@ function App() {
             </div>
           </div>
         </section>
+
         <section className="AboutUs">
-          <div className="Conteiner">
-            <div className="ImgWrap">
-              <img src={ImgFotoAboutUs} alt="" />
-            </div>
-            <div className="TextWrapAboutUs">
-              <h3>Про нас</h3>
+          <div className="ImgWrap">
+            <img src={ImgFotoAboutUs} alt="" />
+            <div className="WrapButtonAboutUs">
               <p>
-                Наша команда складається з досвідчених і відданих професіоналів,
-                які працюють з ентузіазмом і ефективністю. Ми пишаємося
-                своїми досягненнями в цій галузі та прагнемо стати лідерами
-                в галузі скупки та переробки каталізаторів. Ми встановили міцні
-                партнерські відносини з автосервісами, автомобільними дилерами
-                та іншими підприємствами, що дозволяє нам отримувати постійний
-                потік каталізаторів Навколишнє середовище є одним із наших
-                основних пріоритетів! Ми співпрацюємо з акредитованими
-                переробними підприємствами, гарантуючи, що матеріали будуть
-                оброблені та використані відповідно до екологічних стандартів.
+                Більше фото тут <img src={VectorRightWhite} alt="" />{' '}
               </p>
-              <button>
-                Читати більше <img src={VectorRight} alt="" />
-              </button>
+              <ul>
+                <li>
+                  <img src={Viber} alt="" />
+                </li>
+                <li>
+                  <img src={Telegram} alt="" />
+                </li>
+                <li>
+                  <img src={Instagram} alt="" />
+                </li>
+              </ul>
             </div>
+          </div>
+          <div className="TextWrapAboutUs">
+            <h3>Про нас</h3>
+            <p>
+              Наша команда складається з досвідчених і відданих професіоналів,
+              які працюють з ентузіазмом і ефективністю. Ми пишаємося
+              своїми досягненнями в цій галузі та прагнемо стати лідерами
+              в галузі скупки та переробки каталізаторів. Ми встановили міцні
+              партнерські відносини з автосервісами, автомобільними дилерами
+              та іншими підприємствами, що дозволяє нам отримувати постійний
+              потік каталізаторів Навколишнє середовище є одним із наших
+              основних пріоритетів! Ми співпрацюємо з акредитованими переробними
+              підприємствами, гарантуючи, що матеріали будуть оброблені
+              та використані відповідно до екологічних стандартів.
+            </p>
+            <button>
+              Читати більше <img src={VectorRight} alt="" />
+            </button>
           </div>
         </section>
       </div>

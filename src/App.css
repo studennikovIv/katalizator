@@ -380,3 +380,67 @@
   text-align: center;
   width: 440px;
 }
+.AboutUs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 110px;
+}
+.ImgWrap {
+  width: 50%;
+}
+.ImgWrap img {
+  width: 750px;
+  height: 450px;
+  top: 3834px;
+  left: 90px;
+  opacity: 0.75px;
+}
+.WrapButtonAboutUs {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.WrapButtonAboutUs p img {
+  width: 30px;
+  height: 15px;
+  top: 21.91259765625px;
+  left: 30px;
+  angle: -180 deg;
+}
+.WrapButtonAboutUs ul {
+  display: flex;
+}
+.TextWrapAboutUs {
+  width: 50%;
+  margin-left: 130px;
+}
+.TextWrapAboutUs h3 {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.TextWrapAboutUs p {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 25px;
+}
+.TextWrapAboutUs button {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ed693f;
+  margin-top: 25px;
+}

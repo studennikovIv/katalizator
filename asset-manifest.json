@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/katalizator/static/css/main.ce0654e5.css",
+    "main.css": "/katalizator/static/css/main.9fd49fbd.css",
     "main.js": "/katalizator/static/js/main.53e6928c.js",
     "static/media/HeroBg.jpg": "/katalizator/static/media/HeroBg.b7df00fed181f1624318.jpg",
     "static/media/FotoAboutUs.jpg": "/katalizator/static/media/FotoAboutUs.64226e620d00d8907700.jpg",
@@ -11,11 +11,11 @@
     "static/media/VectorRight.svg": "/katalizator/static/media/VectorRight.16ca438209ed33a325651cf4ddc17621.svg",
     "static/media/VectorRightWhite.svg": "/katalizator/static/media/VectorRightWhite.79a40829f967c6c795682be8051b5cfb.svg",
     "static/media/LinkToBottom.svg": "/katalizator/static/media/LinkToBottom.b6f568f7a7d8d58ab0eaf950ad9fee07.svg",
-    "main.ce0654e5.css.map": "/katalizator/static/css/main.ce0654e5.css.map",
+    "main.9fd49fbd.css.map": "/katalizator/static/css/main.9fd49fbd.css.map",
     "main.53e6928c.js.map": "/katalizator/static/js/main.53e6928c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce0654e5.css",
+    "static/css/main.9fd49fbd.css",
     "static/js/main.53e6928c.js"
   ]
 }

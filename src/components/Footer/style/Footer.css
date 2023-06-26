@@ -1,0 +1,10 @@
+/* Footer */
+.WrapMap {
+  background-color: #000;
+  width: 100%;
+  height: 505px;
+}
+.WrapBottom {
+  display: flex;
+  justify-content: space-between;
+}

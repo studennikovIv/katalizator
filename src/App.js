@@ -18,6 +18,8 @@ import Honda from './assets/img/Honda.png';
 import Toyota from './assets/img/Toyota.png';
 import Huydai from './assets/img/Hyundai.png';
 import BMV from './assets/img/BMW.png';
+
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
@@ -308,32 +310,7 @@ function App() {
         </ul>
       </section>
       <div className="Conteiner">
-        <footer>
-          <div className="WrapMap"></div>
-          <div className="WrapBottom">
-            <div className="LeftWrapBottom">
-              <img src={logo} alt="" />
-              <ul>
-                <li>
-                  <a href="/">Меню</a>
-                </li>
-                <li>
-                  <a href="/">Причини</a>
-                </li>
-                <li>
-                  <a href="/">Про нас</a>
-                </li>
-                <li>
-                  <a href="/">Відгуки</a>
-                </li>
-                <li>
-                  <a href="/">Допомога</a>
-                </li>
-              </ul>
-            </div>
-            <div className="RightWrapBottom"></div>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </>
   );

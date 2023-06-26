@@ -12,7 +12,12 @@ import VectorRightWhite from './assets/icons/VectorRightWhite.svg';
 import Instagram from './assets/icons/Instagram.svg';
 import Telegram from './assets/icons/Telegram.svg';
 import Viber from './assets/icons/Viber.svg';
-
+import Mers from './assets/img/Mercedes.png';
+import Porsh from './assets/img/Porshe.png';
+import Honda from './assets/img/Honda.png';
+import Toyota from './assets/img/Toyota.png';
+import Huydai from './assets/img/Hyundai.png';
+import BMV from './assets/img/BMW.png';
 function App() {
   return (
     <>
@@ -236,20 +241,26 @@ function App() {
 
         <section className="AboutUs">
           <div className="ImgWrap">
-            <img src={ImgFotoAboutUs} alt="" />
+            <img src={ImgFotoAboutUs} className="ImgAboutUs" alt="" />
             <div className="WrapButtonAboutUs">
               <p>
                 Більше фото тут <img src={VectorRightWhite} alt="" />{' '}
               </p>
               <ul>
-                <li>
-                  <img src={Viber} alt="" />
+                <li className="Viber">
+                  <a href="/">
+                    <img src={Viber} alt="" />
+                  </a>
                 </li>
-                <li>
-                  <img src={Telegram} alt="" />
+                <li className="Telegram">
+                  <a href="/">
+                    <img src={Telegram} alt="" />
+                  </a>
                 </li>
-                <li>
-                  <img src={Instagram} alt="" />
+                <li className="Instagram">
+                  <a href="/">
+                    <img src={Instagram} alt="" />
+                  </a>
                 </li>
               </ul>
             </div>
@@ -273,6 +284,56 @@ function App() {
             </button>
           </div>
         </section>
+      </div>
+      <section className="avtoImg">
+        <ul>
+          <li>
+            <img src={Mers} alt="" />
+          </li>
+          <li>
+            <img src={Porsh} alt="" />
+          </li>
+          <li>
+            <img src={Honda} alt="" />
+          </li>
+          <li>
+            <img src={Toyota} alt="" />
+          </li>
+          <li>
+            <img src={Huydai} alt="" />
+          </li>
+          <li>
+            <img src={BMV} alt="" />
+          </li>
+        </ul>
+      </section>
+      <div className="Conteiner">
+        <footer>
+          <div className="WrapMap"></div>
+          <div className="WrapBottom">
+            <div className="LeftWrapBottom">
+              <img src={logo} alt="" />
+              <ul>
+                <li>
+                  <a href="/">Меню</a>
+                </li>
+                <li>
+                  <a href="/">Причини</a>
+                </li>
+                <li>
+                  <a href="/">Про нас</a>
+                </li>
+                <li>
+                  <a href="/">Відгуки</a>
+                </li>
+                <li>
+                  <a href="/">Допомога</a>
+                </li>
+              </ul>
+            </div>
+            <div className="RightWrapBottom"></div>
+          </div>
+        </footer>
       </div>
     </>
   );

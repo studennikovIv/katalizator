@@ -388,7 +388,7 @@
 .ImgWrap {
   width: 50%;
 }
-.ImgWrap img {
+.ImgAboutUs {
   width: 750px;
   height: 450px;
   top: 3834px;
@@ -396,12 +396,10 @@
   opacity: 0.75px;
 }
 .WrapButtonAboutUs {
-  font-family: Nunito;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 33px;
-  letter-spacing: 0em;
-  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 38px;
+  align-items: center;
 }
 .WrapButtonAboutUs p img {
   width: 30px;
@@ -411,6 +409,45 @@
 }
 .WrapButtonAboutUs ul {
   display: flex;
+}
+.WrapButtonAboutUs ul li {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Viber {
+  background-color: #0d386b;
+}
+.Telegram {
+  background-color: #177c64;
+}
+.Instagram {
+  background-color: #70167e;
+}
+.WrapButtonAboutUs ul li + li {
+  margin-left: 25px;
+}
+
+.WrapButtonAboutUs ul li a {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.WrapButtonAboutUs ul li img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 100%;
+  max-height: 100%;
 }
 .TextWrapAboutUs {
   width: 50%;
@@ -442,4 +479,22 @@
   text-align: left;
   color: #ed693f;
   margin-top: 25px;
+}
+
+/* Картикни с логотипами марок машин  */
+
+.avtoImg {
+  margin-top: 90px;
+}
+.avtoImg ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer */
+.WrapMap {
+  background-color: #000;
+  width: 100%;
+  height: 505px;
 }

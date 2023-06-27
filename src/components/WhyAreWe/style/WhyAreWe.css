@@ -2,6 +2,15 @@
   text-align: center;
   padding-top: 100px;
 }
+
+.WhyAreWe h2 {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 .WrapWhyAreWe {
   display: grid;
   margin-top: 90px;

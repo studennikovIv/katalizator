@@ -48,6 +48,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="TextBottomFooter">
+          <p>© 2023 Усі права захищені</p>
+        </div>
       </footer>
     </>
   );

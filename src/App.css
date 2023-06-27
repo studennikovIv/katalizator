@@ -37,26 +37,7 @@
   }
 }
 
-/* Hero */
-
 .HeroBg {
   background-image: url('./assets/img/HeroBg.jpg');
   height: 1016px;
-}
-
-/* Этапы продажу */
-
-/* Price Katalizator */
-
-/* Чому варто звертатися до нас? */
-
-/* Картикни с логотипами марок машин  */
-
-.avtoImg {
-  margin-top: 90px;
-}
-.avtoImg ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }

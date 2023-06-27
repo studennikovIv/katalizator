@@ -1,0 +1,94 @@
+.StagesSale {
+  padding-top: 50px;
+  text-align: center;
+  color: #fff;
+  height: 1086px;
+}
+.StagesSale h2 {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0em;
+}
+.LeftContainer {
+  margin-right: 55px;
+}
+.ConteinerStagesSale {
+  display: flex;
+  margin-top: 108px;
+}
+.Box {
+  width: 650px;
+  height: 266px;
+  text-align: left;
+}
+.Box h3 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Box p {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 35px;
+}
+.Box button {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ed693f;
+  margin-top: 30px;
+}
+.Box + .Box {
+  margin-top: 175px;
+}
+.CenterConteiner {
+  width: 80px;
+  height: 750px;
+}
+.CenterConteiner li {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ed693f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.CenterConteiner li:first-child {
+  background-color: #ed693f !important;
+}
+.CenterConteiner li:nth-child(even)::before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 140px;
+  background-color: #ed693f;
+  vertical-align: middle;
+}
+.CenterConteiner li:nth-child(even) {
+  border: none;
+  height: 140px;
+}
+.RightConteiner {
+  margin-left: 108px;
+  padding-top: 120px;
+}

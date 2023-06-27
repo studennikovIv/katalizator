@@ -1,0 +1,8 @@
+.avtoImg {
+  margin-top: 90px;
+}
+.avtoImg ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

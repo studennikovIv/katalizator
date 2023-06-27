@@ -1,0 +1,77 @@
+.PriseCatalizator {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.PriseCatalizator h2 {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+}
+.ConteinerForm {
+  display: flex;
+  justify-content: space-around;
+}
+.DiscriptionForm {
+  width: 520px;
+}
+.DiscriptionForm h3 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.FormPriseCatalizator {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  text-align: left;
+}
+.ConteinerForm {
+  margin-top: 60px;
+}
+.FormPriseCatalizator input {
+  border-bottom: 1px solid #6f6f6f;
+  height: 53px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Nunito;
+}
+.FormPriseCatalizator input::placeholder {
+  padding: 10px;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.FormPriseCatalizator input::value {
+  padding: 10px;
+}
+.FormPriseCatalizator input + input {
+  margin-top: 40px;
+}
+.FormPriseCatalizator button {
+  width: Hug (174px);
+  height: Hug (63px);
+  padding: 15px 30px 15px 30px;
+  margin-right: auto;
+  margin-top: 65px;
+  background-color: #ed693f;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}

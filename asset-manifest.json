@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/katalizator/static/css/main.096575fc.css",
-    "main.js": "/katalizator/static/js/main.77cd986a.js",
+    "main.css": "/katalizator/static/css/main.8fa48cbf.css",
+    "main.js": "/katalizator/static/js/main.58607667.js",
     "static/media/HeroBg.jpg": "/katalizator/static/media/HeroBg.b7df00fed181f1624318.jpg",
     "static/media/FotoAboutUs.jpg": "/katalizator/static/media/FotoAboutUs.64226e620d00d8907700.jpg",
     "static/media/Honda.png": "/katalizator/static/media/Honda.2a7173970b26fbde6929.png",
     "static/media/Porshe.png": "/katalizator/static/media/Porshe.2d6d5ed1f56617a4884c.png",
     "static/media/Mercedes.png": "/katalizator/static/media/Mercedes.36bc8b8d1cd69c1e1bda.png",
     "static/media/Viber.svg": "/katalizator/static/media/Viber.64ec1618a2174d777a6ffd13e52e3f2b.svg",
-    "static/media/Instagram.svg": "/katalizator/static/media/Instagram.012c597a1de3685e78c7b190a9f2da09.svg",
     "index.html": "/katalizator/index.html",
+    "static/media/Instagram.svg": "/katalizator/static/media/Instagram.012c597a1de3685e78c7b190a9f2da09.svg",
     "static/media/Telegram.svg": "/katalizator/static/media/Telegram.ef98a24e994537c37ca3ac356c3ec140.svg",
+    "static/media/ButtonVectorWhite.svg": "/katalizator/static/media/ButtonVectorWhite.0e3165e7198246af3349abaa34aab97a.svg",
     "static/media/VectorRight.svg": "/katalizator/static/media/VectorRight.16ca438209ed33a325651cf4ddc17621.svg",
     "static/media/VectorRightWhite.svg": "/katalizator/static/media/VectorRightWhite.79a40829f967c6c795682be8051b5cfb.svg",
     "static/media/LinkToBottom.svg": "/katalizator/static/media/LinkToBottom.b6f568f7a7d8d58ab0eaf950ad9fee07.svg",
-    "main.096575fc.css.map": "/katalizator/static/css/main.096575fc.css.map",
-    "main.77cd986a.js.map": "/katalizator/static/js/main.77cd986a.js.map"
+    "main.8fa48cbf.css.map": "/katalizator/static/css/main.8fa48cbf.css.map",
+    "main.58607667.js.map": "/katalizator/static/js/main.58607667.js.map"
   },
   "entrypoints": [
-    "static/css/main.096575fc.css",
-    "static/js/main.77cd986a.js"
+    "static/css/main.8fa48cbf.css",
+    "static/js/main.58607667.js"
   ]
 }

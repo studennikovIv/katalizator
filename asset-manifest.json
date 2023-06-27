@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/katalizator/static/css/main.8fa48cbf.css",
-    "main.js": "/katalizator/static/js/main.58607667.js",
+    "main.css": "/katalizator/static/css/main.11441b0d.css",
+    "main.js": "/katalizator/static/js/main.2df7b09a.js",
     "static/media/HeroBg.jpg": "/katalizator/static/media/HeroBg.b7df00fed181f1624318.jpg",
     "static/media/FotoAboutUs.jpg": "/katalizator/static/media/FotoAboutUs.64226e620d00d8907700.jpg",
     "static/media/Honda.png": "/katalizator/static/media/Honda.2a7173970b26fbde6929.png",
@@ -15,11 +15,11 @@
     "static/media/VectorRight.svg": "/katalizator/static/media/VectorRight.16ca438209ed33a325651cf4ddc17621.svg",
     "static/media/VectorRightWhite.svg": "/katalizator/static/media/VectorRightWhite.79a40829f967c6c795682be8051b5cfb.svg",
     "static/media/LinkToBottom.svg": "/katalizator/static/media/LinkToBottom.b6f568f7a7d8d58ab0eaf950ad9fee07.svg",
-    "main.8fa48cbf.css.map": "/katalizator/static/css/main.8fa48cbf.css.map",
-    "main.58607667.js.map": "/katalizator/static/js/main.58607667.js.map"
+    "main.11441b0d.css.map": "/katalizator/static/css/main.11441b0d.css.map",
+    "main.2df7b09a.js.map": "/katalizator/static/js/main.2df7b09a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fa48cbf.css",
-    "static/js/main.58607667.js"
+    "static/css/main.11441b0d.css",
+    "static/js/main.2df7b09a.js"
   ]
 }

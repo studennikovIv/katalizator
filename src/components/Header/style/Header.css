@@ -27,3 +27,20 @@
 .UaIcon {
   margin-left: 10px;
 }
+.Burger {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .Burger {
+    display: block;
+    margin-left: 10px;
+    width: 55px;
+    height: 55px;
+  }
+  .NavList {
+    display: none;
+  }
+  .HeaderPhone {
+    margin-right: 120px;
+  }
+}

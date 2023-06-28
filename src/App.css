@@ -40,4 +40,15 @@
 .HeroBg {
   background-image: url('./assets/img/HeroBg.jpg');
   height: 1016px;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1024px) {
+  .HeroBg {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    height: 1101px;
+  }
 }

@@ -1,5 +1,6 @@
 import logo from '../../assets/img/logo.png';
 import IconLinkToBottom from '../../assets/icons/LinkToBottom.svg';
+import Burger from '../../assets/icons/Bureger.svg';
 import './style/Header.css';
 const Header = () => {
   return (
@@ -32,6 +33,9 @@ const Header = () => {
             <img className="UaIcon" src={IconLinkToBottom} alt="" />
           </li>
         </ul>
+        <button className="Burger">
+          <img src={Burger} alt="" />
+        </button>
       </header>
     </>
   );

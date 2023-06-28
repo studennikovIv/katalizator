@@ -92,3 +92,44 @@
   margin-left: 108px;
   padding-top: 120px;
 }
+@media (max-width: 1024px) {
+  .StagesSale {
+    margin-top: 70px;
+    height: 1550px;
+  }
+  .ConteinerStagesSale {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+  }
+
+  .LeftContainer {
+    grid-column: 1;
+  }
+
+  .CenterConteiner {
+    grid-column: 2;
+  }
+
+  .RightConteiner {
+    grid-column: 1;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .Box {
+    width: 800px;
+    height: 266px;
+  }
+  .Box + .Box {
+    margin-top: 84px;
+  }
+  .Box p {
+    line-height: 32.74px;
+  }
+  .CenterConteiner li:nth-child(even) {
+    height: 250px;
+  }
+  .CenterConteiner li:nth-child(even)::before {
+    height: 250px;
+  }
+}

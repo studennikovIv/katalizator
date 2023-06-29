@@ -30,7 +30,7 @@
 .Burger {
   display: none;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .Burger {
     display: block;
     margin-left: 10px;

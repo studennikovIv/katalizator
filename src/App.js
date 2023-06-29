@@ -23,10 +23,10 @@ function App() {
         <WhyAreWe />
         <AboutUs />
       </div>
-      {/* <AvtoImg />
+      <AvtoImg />
       <div className="Conteiner">
         <Footer />
-      </div> */}
+      </div>
     </>
   );
 }

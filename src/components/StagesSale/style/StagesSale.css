@@ -92,7 +92,7 @@
   margin-left: 108px;
   padding-top: 120px;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .StagesSale {
     margin-top: 70px;
     height: 1550px;

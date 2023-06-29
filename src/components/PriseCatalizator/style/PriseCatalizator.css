@@ -75,7 +75,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .ConteinerForm {
     display: flex;
     flex-direction: column;

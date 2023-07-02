@@ -49,7 +49,11 @@
     padding: 0;
     margin: 0;
     border: none;
-    box-sizing: border-box;
+    box-sizing: content-box;
     height: 1101px;
+    background-size: cover; /* или contain */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: content-box;
   }
 }

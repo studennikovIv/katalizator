@@ -89,4 +89,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: stretch;
   }
+  .WhyBlock p {
+    max-width: 375px;
+  }
 }

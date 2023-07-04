@@ -23,11 +23,13 @@ code {
 
 .Conteiner {
   max-width: 1540px;
+  margin: auto;
   padding: 0 190px;
 }
 @media (max-width: 1024px) {
   .Conteiner {
     max-width: 1000px;
+
     padding: 0 15px;
   }
 }

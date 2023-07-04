@@ -36,24 +36,22 @@
     transform: rotate(360deg);
   }
 }
-
+#root {
+  overflow-x: hidden;
+}
 .HeroBg {
   background-image: url('./assets/img/HeroBg.jpg');
+  min-width: 100%;
   height: 1016px;
   background-size: cover;
   background-position: center;
 }
 @media screen and (max-width: 1024px) {
   .HeroBg {
-    width: 100%;
     padding: 0;
     margin: 0;
-    border: none;
-    box-sizing: content-box;
     height: 1101px;
-    background-size: cover; /* или contain */
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }

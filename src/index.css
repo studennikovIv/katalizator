@@ -27,7 +27,7 @@ code {
 }
 @media (max-width: 1024px) {
   .Conteiner {
-    max-width: 100%;
+    max-width: 1000px;
     padding: 0 15px;
   }
 }
